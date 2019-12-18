@@ -1,0 +1,8 @@
+D:\dev\OdeToFood.Core\bin\Debug\netcoreapp3.0\win-x64\OdeToFood.Core.deps.json
+D:\dev\OdeToFood.Core\bin\Debug\netcoreapp3.0\win-x64\OdeToFood.Core.dll
+D:\dev\OdeToFood.Core\bin\Debug\netcoreapp3.0\win-x64\OdeToFood.Core.pdb
+D:\dev\OdeToFood.Core\obj\Debug\netcoreapp3.0\win-x64\OdeToFood.Core.csprojAssemblyReference.cache
+D:\dev\OdeToFood.Core\obj\Debug\netcoreapp3.0\win-x64\OdeToFood.Core.AssemblyInfoInputs.cache
+D:\dev\OdeToFood.Core\obj\Debug\netcoreapp3.0\win-x64\OdeToFood.Core.AssemblyInfo.cs
+D:\dev\OdeToFood.Core\obj\Debug\netcoreapp3.0\win-x64\OdeToFood.Core.dll
+D:\dev\OdeToFood.Core\obj\Debug\netcoreapp3.0\win-x64\OdeToFood.Core.pdb

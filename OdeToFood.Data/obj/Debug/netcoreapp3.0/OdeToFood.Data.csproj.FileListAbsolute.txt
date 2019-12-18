@@ -1,0 +1,13 @@
+D:\dev\OdeToFood.Data\obj\Debug\netcoreapp3.0\OdeToFood.Data.csprojAssemblyReference.cache
+D:\dev\OdeToFood.Data\obj\Debug\netcoreapp3.0\OdeToFood.Data.AssemblyInfoInputs.cache
+D:\dev\OdeToFood.Data\obj\Debug\netcoreapp3.0\OdeToFood.Data.AssemblyInfo.cs
+D:\dev\OdeToFood.Data\bin\Debug\netcoreapp3.0\OdeToFood.Data.deps.json
+D:\dev\OdeToFood.Data\bin\Debug\netcoreapp3.0\OdeToFood.Data.dll
+D:\dev\OdeToFood.Data\bin\Debug\netcoreapp3.0\OdeToFood.Data.pdb
+D:\dev\OdeToFood.Data\bin\Debug\netcoreapp3.0\OdeToFood.Core.dll
+D:\dev\OdeToFood.Data\bin\Debug\netcoreapp3.0\OdeToFood.Core.pdb
+D:\dev\OdeToFood.Data\obj\Debug\netcoreapp3.0\OdeToFood.Data.csproj.CopyComplete
+D:\dev\OdeToFood.Data\obj\Debug\netcoreapp3.0\OdeToFood.Data.dll
+D:\dev\OdeToFood.Data\obj\Debug\netcoreapp3.0\OdeToFood.Data.pdb
+D:\dev\OdeToFood.Data\bin\Debug\netcoreapp3.0\OdeToFood.Data.runtimeconfig.json
+D:\dev\OdeToFood.Data\bin\Debug\netcoreapp3.0\OdeToFood.Data.runtimeconfig.dev.json

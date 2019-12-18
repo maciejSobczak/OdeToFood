@@ -1,0 +1,50 @@
+﻿@page
+@model OdeToFood.Pages.Restaurants.ClientRestaurantsModel
+@{
+    ViewData["Title"] = "Client Restaurants";
+}
+
+<h2>Client Restaurants</h2>
+
+<table class="table" id="restaurants"></table>
+
+@section Scripts {
+
+    <environment include="Development">
+        <script src="D:\dev\OdeToFood\node_modules\datatables.net\js\jquery.dataTables.js"></script>
+        <script src="D:\dev\OdeToFood\node_modules\datatables.net-dt\js\dataTables.dataTables.js"></script>
+        <link href="D:\dev\OdeToFood\node_modules\datatables.net-dt\css\jquery.dataTables.css" rel="stylesheet" />
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.20/datatables.min.css" />
+        <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.20/datatables.min.js"></script>
+    </environment>
+
+    <script>
+
+        var cuisines = ["Unknown", "Mexican", "Italian", "Indian"]
+
+        $(function () {
+            $.ajax("/api/restaurants", { method: "get" })
+                .then(function (response) {
+                    $("#restaurants").dataTable({
+                        data: response,
+                        columns: [
+                            { "data": "name" },
+                            { "data": "location" },
+                            {
+                                "data": "cuisine", "render": function (data) {
+                                    return cuisines[data];
+                                }
+                            }
+                        ]
+                    });
+                });
+        });
+
+        //$(document).ready(function () {
+        //    $('#restaurants').DataTable();
+        //});
+
+    </script>
+}
